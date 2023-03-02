@@ -3,7 +3,7 @@ const index = require("./index.js");
 var notas = [];
 var alunos = [];
 
-for (var i = 0; i < 3; i++) {
+for (var i = 0; i < 10; i++) {
   let name = prompt("Informe o nome do aluno: ");
   let nota = parseFloat(prompt("Informa e nota:  "));
   notas.push(nota);
